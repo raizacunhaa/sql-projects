@@ -1,7 +1,6 @@
 # NetflixDB – SQL Project 🎬
 
-Este repositorio contiene el diseño, carga de datos y consultas SQL
-sobre una base de datos relacional inspirada en la plataforma Netflix.
+Este repositorio contiene el diseño, la carga de datos y las consultas SQL de una base de datos relacional inspirada en la plataforma Netflix, desarrollada como parte de un curso de SQL.
 
 ## 📌 Contenido
 - Diseño del esquema relacional
