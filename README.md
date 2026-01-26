@@ -1,10 +1,10 @@
 # SQL Projects
 
-Repositório com projetos desenvolvidos para prática e consolidação de SQL.
+Repositório com projectos desarrollados para práctica y fortalecimiento de SQL.
 
-## Projetos
-- **NetflixDB**: base relacional com consultas SQL do nível básico ao avançado.
+## Projectos
+- **NetflixDB**: base relacional con consultas SQL do nível básico al avanzado.
 
-## Tecnologias
+## Tecnologías
 - MySQL
 - MySQL Workbench
