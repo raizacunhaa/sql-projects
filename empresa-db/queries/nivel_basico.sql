@@ -8,26 +8,27 @@
 -- ============================
 
 -- ENUNCIADO 1:
--- Liste todos os departamentos cadastrados na empresa.
+-- Liste todos los departamentos registrados en la empresa.
 SELECT * FROM departamentos;
 
 
 -- ENUNCIADO 2:
--- Liste o nome e o email de todos os funcionários.
+-- Liste el nombre y el correo electrónico de todos los empleados.
 SELECT nombre, email FROM empleados; 
 
 
 -- ENUNCIADO 3:
--- Liste os funcionários que pertencem a um departamento específico.
+-- Liste los empleados que pertenecen a un departamento específico.
 SELECT nombre, apellido FROM empleados WHERE depto_id = 1;
 
 
 -- ENUNCIADO 4:
--- Liste os nomes dos projetos que já possuem data de início definida.
+-- Liste los nombres de los proyectos que ya tienen una fecha de inicio definida.
 SELECT nombre FROM Proyectos WHERE fecha_inicio IS NOT NULL;
 
 
 -- ENUNCIADO 5:
--- Liste todas as atribuições de projetos com mais de 20 horas alocadas.
-select proyecto_id, empleado_id, horas_asignadas from asignacionesdeproyectos where horas_asignadas >= 20;
-
+-- Liste todas las asignaciones de proyectos con más de 20 horas asignadas.
+SELECT proyecto_id, empleado_id, horas_asignadas
+FROM asignacionesdeproyectos
+WHERE horas_asignadas >= 20;
