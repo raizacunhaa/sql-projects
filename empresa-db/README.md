@@ -6,7 +6,7 @@ Proyecto SQL basado en un banco de datos ficticios, diseñado para practicar y c
 
 El objetivo de este proyecto es ejercer consultas SQL en un contexto empresarial realista, explorando relaciones entre funcionarios, departamentos, proyectos y ubicaciones de trabajo.
 
-El banco fue utilizado como base para la crianza de ejercicios organizados por nivel de dificultad, con foco en aprendiz progresivo y construcción de cartera.
+El banco fue utilizado como base para la creación de ejercicios organizados por nivel de dificultad, con foco en el aprendizaje progresivo y construcción de portafólio.
 
 ## 🗂 Estructura del Proyecto
 
@@ -18,7 +18,7 @@ Script de inserción de datos ficticios para populares como tablas y permitir la
 - `consultas/` 
 Pasta contendo ejercicios SQL organizados por nivel: 
 - `nivel_basico.sql` – consultas simples (`SELECT`, `WHERE`) 
-- `nivel_intermediario.sql` – `UNIR`, agregações, `GROUP BY`, `TENER`, `CASE` 
+- `nivel_intermediario.sql` – funciones de agregado como: `GROUP BY`, `COUNT`, `CASE` 
 - `nivel_avancado.sql` – subconsultas, CTE y funciones de ventana
 
 ## 🧱 Modelo de Datos
