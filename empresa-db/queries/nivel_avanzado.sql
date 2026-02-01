@@ -18,7 +18,7 @@ GROUP BY empleado_id;
 -- Para cada departamento, genere un ranking de los empleados con mayor
 -- cantidad de horas asignadas a proyectos.
 
-WITH EsfuerzoxProyecto AS(
+WITH Ranking_por_Proyecto AS(
 	SELECT 
 		proyecto_id, 
 		SUM(horas_asignadas) AS total_horas_xproyecto
@@ -29,11 +29,11 @@ SELECT
 	proyecto_id, 
 	total_horas_xproyecto,
 	ROW_NUMBER() OVER(ORDER BY total_horas_xproyecto DESC) AS ranking_proyectos
-FROM EsfuerzoxProyecto;
+FROM Ranking_por_Proyecto;
 
 
 -- ENUNCIADO 3:
--- L calcular el total de horas asignadas a cada empleado y, a partir de ese resultado, clasifique a los empleados según su nivel de carga de trabajo.
+-- Calcular el total de horas asignadas a cada empleado y, a partir de ese resultado, clasifique a los empleados según su nivel de carga de trabajo.
 
 -- La clasificación debe ser:
 
